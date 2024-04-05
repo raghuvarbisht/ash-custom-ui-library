@@ -12,11 +12,11 @@
   },
   "types": "./dist/types/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@peshanghiwa"
+    "registry": "https://npm.pkg.github.com/@raghuvarbisht"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peshanghiwa/github-packages-ui-library"
+    "url": "https://github.com/raghuvarbisht/ash-custom-ui-library"
   },
   "scripts": {
     "dev": "vite",
@@ -27,7 +27,7 @@
     "preview": "vite preview",
     "test": "exit 0"
   },
-  "name": "@acn/ash-custom-ui-library",
+  "name": "@raghuvarbisht/ash-custom-ui-library",
   "version": "0.0.8",
   "type": "module",
   "dependencies": {
