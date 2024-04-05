@@ -28,7 +28,7 @@
     "test": "exit 0"
   },
   "name": "@raghuvarbisht/ash-custom-ui-library",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "type": "module",
   "dependencies": {
     "vue": "^3.2.45"
