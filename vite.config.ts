@@ -5,6 +5,15 @@ import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 export default defineConfig({
   plugins: [vue(), cssInjectedByJsPlugin()],
+  css:{
+    preprocessorOptions:{
+      scss:{
+        additionalData: `
+        @import "./src/themes/emea-variable";
+        `
+      }
+    }
+  },
   resolve: {
     alias: {
       "@/": new URL("./src/", import.meta.url).pathname,
