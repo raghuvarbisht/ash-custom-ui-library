@@ -14,17 +14,10 @@ const fontSize = computed(() => `${props.size}px`);
 </script>
 
 <template>
-  <button id="baseButton">
+  <button class="button-primary">
     <slot />
   </button>
 </template>
 
 <style>
-#baseButton {
-  padding: 1rem 2rem;
-  cursor: pointer;
-  border: none;
-  background-color: v-bind(color);
-  font-size: v-bind(fontSize);
-}
 </style>
